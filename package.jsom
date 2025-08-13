@@ -1,1 +1,21 @@
-
+{
+  "name": "ap-prep",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "node vercel-build.cjs",
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.10",
+    "postcss": "8.4.39",
+    "autoprefixer": "10.4.19"
+  }
+}
